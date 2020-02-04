@@ -1,10 +1,13 @@
 # Sentimental-Analysis-of-Airline-Tweets-for-Recommendation
 @author: NIXON ABRAHAM
+
 Project Objective:
 
 Scrape data from Twitter on 6 different US airlines and perform sentimental analysis based on text, retweet and negative keywords. Thereafter perform collective and individual sentiment analysis of airlines. Train data to project sentiment using random forest algorithm. Sentiment analysis helps companies in their decision-making process. For instance, if public sentiment towards a product is not so good, a company may try to modify the product or stop the production altogether in order to avoid any losses.
 
-Data Scraping/ Data Collection: Data set was created using python to connect with Twitter API after passing authentication key like customer and secret keys. Using Twitters tweepy package is used to filter out the necessary attributes of each airline, this data will be present in csv format using the pandas library and presented in tabular format inserted into a data frame.
+Data Scraping/ Data Collection:
+
+Data set was created using python to connect with Twitter API after passing authentication key like customer and secret keys. Using Twitters tweepy package is used to filter out the necessary attributes of each airline, this data will be present in csv format using the pandas library and presented in tabular format inserted into a data frame.
 
 Data Cleaning:
 
@@ -28,3 +31,4 @@ For prediction will use the predict method on the object of Random Forest Classi
 The performance of the machine learning models, we can use classification metrics such as a confusion metrix, F1 measure, accuracy, etc.
 
 author : NIXON ABRAHAM
+email id: nixonabraham17@gmail.com
